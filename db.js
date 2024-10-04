@@ -6,6 +6,6 @@ const pool = new pg_1.Pool({
     host: 'localhost',
     database: 'wordcounter',
     password: 'password',
-    port: 5432,
+    port: 6001,
 });
 exports.default = pool;

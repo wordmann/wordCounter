@@ -12,6 +12,7 @@ const app = (0, express_1.default)();
 app.use(body_parser_1.default.json({ limit: '50mb' }));
 app.use(body_parser_1.default.urlencoded({ limit: '50mb', extended: true }));
 app.use((0, cors_1.default)({ origin: true }));
+app.use(express_1.default.static('client'));
 app.use(function (req, res, next) {
     res.header("Access-Control-Allow-Origin", "*");
     res.header("Access-Control-Allow-Headers", "Origin, X-Requested-With, Content-Type, Accept");

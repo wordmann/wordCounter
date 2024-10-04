@@ -6,6 +6,6 @@ services:
       POSTGRES_PASSWORD: password
       POSTGRES_DB: wordcounter
     ports:
-      - "5432:5432"
+      - "5600:5600"
     volumes:
       - ./data:/var/lib/postgresql/data

@@ -5,7 +5,7 @@ const pool = new Pool({
   host: 'localhost',
   database: 'wordcounter',
   password: 'password',
-  port: 5432,
+  port: 6001,
 });
 
 export default pool;
