@@ -1,0 +1,64 @@
+
+* {
+    font-family: "Chakra Petch", sans-serif;
+  }
+
+
+h1.titlebar {
+    background-color: black;
+    color: black;
+    position: fixed;
+    top: -400px;
+    width: 100%;
+    text-align: center;
+    font-size: 3rem;
+    padding: 20px;
+    padding-top: 400px;
+    transform: rotate(3deg);
+}
+h1.title {
+    color: white;
+    z-index: 5;
+    position: fixed;
+    top: -400px;
+    width: 100%;
+    text-align: center;
+    font-size: 3rem;
+    padding: 20px;
+    padding-top: 400px;
+    transform: rotate(-4deg);
+}
+
+input {
+    border-radius: 5px;
+    background-color: rgb(199, 221, 211);
+    margin: 5px;
+    border: none;
+    font-size: 1.6rem;
+    width: min( 90%, 600px);
+}
+
+button {
+    border-radius: 5px;
+    background-color: rgb(199, 221, 211);
+    margin: 5px;
+    border: none;
+    font-size: 1.4rem;
+    cursor: pointer;
+    width: min( 90%, 600px);
+}
+
+h2 {
+    font-size: 1.2rem;
+    margin: 5px;
+}
+
+h2.small {
+    font-style: italic;
+    font-weight: 400;
+    font-size: 1.1rem;
+}
+
+.ultracon {
+    padding-top: 140px;
+}
