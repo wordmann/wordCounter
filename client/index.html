@@ -8,25 +8,37 @@
     <link href="https://fonts.googleapis.com/css2?family=Chakra+Petch:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
     <title>contaprof</title>
+    <script src="script.js"></script>
 </head>
-<body>
+<body onload="onload()">
 
     <h1 class="titlebar">contaprof</h1>
     <h1 class="title">contaprof</h1>
 
     <div class="ultracon">
 
-        <h2>NOME ACCOUNT</h2>
+        <h2>LOGIN</h2>
         <h2 class="small">Ricorda! La sicurezza del tuo account è determinata solo dal tuo nome utente!</h2>
-        <input type="text" name="" id="username">
+        <input type="text" name="" id="username" placeholder="Nome account">
         <div></div>
         <button onclick="login()">login</button>
 
+        <h2>LISTA COUNTER</h2>
+        <p id="rawcounterslist">Not logged in right now!</p>
+
         <h2>LISTA PAROLE</h2>
-        <p id="rawlist"></p>
+        <p id="rawwordslist">Not logged in right now!</p>
+
+        <h2>INSERISCI PAROLA</h2>
+        <h2 class="small">Currently logged in as <span id="displayusername" style="font-weight: bold;">NOT LOGGED IN</span></h2>
+        <h2 class="small">Post resault <span id="out_wordsend"></span></h2>
+        <input type="text" name="" id="in_word" placeholder="Parola detta">
+        <input type="text" name="" id="in_profname" placeholder="Profname">
+        <div></div>
+        <button onclick="sendword()">invia</button>
+
 
     </div>
 
-    <script src="script.js"></script>
 </body>
 </html>

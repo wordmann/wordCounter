@@ -59,6 +59,10 @@ h2.small {
     font-size: 1.1rem;
 }
 
+p {
+    margin: 5px;
+}
+
 .ultracon {
     padding-top: 140px;
 }
